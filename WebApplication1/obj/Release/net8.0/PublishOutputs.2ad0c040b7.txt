@@ -1,0 +1,7 @@
+D:\Projects\Hehe\WebApplication1\WebApplication1\bin\Release\net8.0\publish\WebApplication1.exe
+D:\Projects\Hehe\WebApplication1\WebApplication1\bin\Release\net8.0\publish\appsettings.Development.json
+D:\Projects\Hehe\WebApplication1\WebApplication1\bin\Release\net8.0\publish\appsettings.json
+D:\Projects\Hehe\WebApplication1\WebApplication1\bin\Release\net8.0\publish\WebApplication1.dll
+D:\Projects\Hehe\WebApplication1\WebApplication1\bin\Release\net8.0\publish\WebApplication1.deps.json
+D:\Projects\Hehe\WebApplication1\WebApplication1\bin\Release\net8.0\publish\WebApplication1.runtimeconfig.json
+D:\Projects\Hehe\WebApplication1\WebApplication1\bin\Release\net8.0\publish\WebApplication1.pdb
