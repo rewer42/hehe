@@ -13,8 +13,10 @@ public class LogIpMiddleware
 
     public async Task InvokeAsync(HttpContext context)
     {
-        var ipAddress = context.Connection.RemoteIpAddress?.ToString();
-        Console.WriteLine($"[IP LOG] User IP: {ipAddress}");
+        var ip = context.Request.Headers["X-Forwarded-For"].FirstOrDefault()
+                 ?? context.Connection.RemoteIpAddress?.ToString();
+
+        Console.WriteLine($"[IP LOG] User IP: {ip}");
 
         await _next(context);
     }
